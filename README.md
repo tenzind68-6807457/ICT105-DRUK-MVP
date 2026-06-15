@@ -11,7 +11,8 @@ Project Type: 14-Labs Continuous IT Startup MVP Development
 ## Team Name
 DRUK
 ## Team Members and Roles
-<img width="662" height="124" alt="image" src="https://github.com/user-attachments/assets/a70d847b-a628-4136-b16d-64e5d564ef2d" />
+<img width="910" height="151" alt="A" src="https://github.com/user-attachments/assets/97522949-7ff7-4adf-88f9-3c657e071d75" />
+
 
 ## Initial Problem Area
 Tourists often struggle to find reliable and organized information about attractions, services, and travel destinations in one place. Information is usually scattered across multiple websites, making travel planning difficult.
