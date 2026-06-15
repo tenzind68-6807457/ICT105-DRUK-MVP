@@ -12,8 +12,10 @@ Project Type: 14-Labs Continuous IT Startup MVP Development
 DRUK
 ## Team Members and Roles
 <img width="662" height="124" alt="image" src="https://github.com/user-attachments/assets/a70d847b-a628-4136-b16d-64e5d564ef2d" />
+
 ## Initial Problem Area
 Tourists often struggle to find reliable and organized information about attractions, services, and travel destinations in one place. Information is usually scattered across multiple websites, making travel planning difficult.
+
 ## Target Users
  Tourists visiting new locations
  
@@ -22,8 +24,10 @@ Tourists often struggle to find reliable and organized information about attract
  Students exploring tourist destinations
  
  Travel enthusiasts
+ 
 ## Initial IT Venture Direction
 Develop a tourism information platform that provides users with destination details, attractions, travel information, and recommendations through a simple and user-friendly website.
+
 ## Technology Possibility
  Web application
   
