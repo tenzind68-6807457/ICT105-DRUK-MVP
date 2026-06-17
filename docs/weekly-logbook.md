@@ -75,7 +75,7 @@ This idea was rejected because it requires a larger customer base and more compl
 
 * Opportunity scan file: https://github.com/tenzind68-6807457/ICT105-DRUK-MVP/blob/d4ce070f5833872eb72beccd1754f6a22996c3da/docs/opportunity-scan.md
 * NUF scoring file: https://github.com/tenzind68-6807457/ICT105-DRUK-MVP/blob/e4b8c0a85b251de668ce3aae722e195aba696e6b/data/opportunity-scoring.xlsx
-* Selected opportunity file:
+* Selected opportunity file:https://github.com/tenzind68-6807457/ICT105-DRUK-MVP/blob/c90cd22823e0c5eb28551c810ef4685aa8b99f6a/docs/selected-opportunity.md
 * GitHub issue screenshot: 
 * Commit link: https://github.com/tenzind68-6807457/ICT105-DRUK-MVP/commits/main/
 
