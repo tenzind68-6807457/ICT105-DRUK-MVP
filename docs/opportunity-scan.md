@@ -19,6 +19,7 @@
 | Academic Task Tracking Dashboard |Students struggle to track assignments and schedules| Students | Paper notes, calendar apps |Student Planner Dashboard | Dashboard System |
 | Career Application Monitoring Portal | Students have difficulty finding internship opportunities | University Students | Multiple websites, manual search |Internship Tracking Dashboard| Web Application |
 
+## Technology Feasibility Mapping
 | Idea | Prototype Type | Tools Needed | Data Needed | Difficulty | Feasible? |
 |---|---|---|---|---|---|
 | Smart Campus Event Hub | Web app prototype + registration & notification system | HTML/CSS/JavaScript + Google Forms + Google Sheets Dashboard | Event title, date/time, location, description, organizer, registration details, reminder preferences | Medium | Yes |
