@@ -73,7 +73,7 @@ This idea was rejected because it requires a larger customer base and more compl
 
 ### Evidence of Work
 
-* Opportunity scan file: 
+* Opportunity scan file: https://github.com/tenzind68-6807457/ICT105-DRUK-MVP/blob/d4ce070f5833872eb72beccd1754f6a22996c3da/docs/opportunity-scan.md
 * NUF scoring file: https://github.com/tenzind68-6807457/ICT105-DRUK-MVP/blob/e4b8c0a85b251de668ce3aae722e195aba696e6b/data/opportunity-scoring.xlsx
 * Selected opportunity file:
 * GitHub issue screenshot: 
