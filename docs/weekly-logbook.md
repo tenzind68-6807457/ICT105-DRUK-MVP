@@ -77,7 +77,7 @@ This idea was rejected because it requires a larger customer base and more compl
 * NUF scoring file: 
 * Selected opportunity file:
 * GitHub issue screenshot: 
-* Commit link: 
+* Commit link: https://github.com/tenzind68-6807457/ICT105-DRUK-MVP/commits/main/
 
 ### Plan for Lab 03
 
