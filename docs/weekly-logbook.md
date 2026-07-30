@@ -1,0 +1,1144 @@
+# Weekly Venture Logbook
+
+## Lab 1: Lab Setup and IT Venture Repository
+
+### What We Completed
+
+1.Created the GitHub repository and organized the required folder structure.
+
+2.Added project documentation files, including README.md, team-profile.md, idea-log.md, and weekly-logbook.md.
+
+3.Created GitHub Issues and assigned initial project tasks.
+
+### What We Learned
+
+1.How to create and manage a GitHub repository.
+
+2.How to use GitHub Issues for project planning and task management.
+
+3.The importance of documentation and version control in software projects.
+
+### Problems or Difficulties
+
+1.Understanding GitHub repository structure and file organization.
+
+2.Learning how to create folders and markdown files correctly in GitHub.
+
+### Evidence of Work
+
+- GitHub repository link:https://github.com/sonamd6807456/ICT105-DRUK-MVP.git
+  
+- Screenshot:
+- <img width="1339" height="890" alt="Screenshot 2026-06-15 190825" src="https://github.com/user-attachments/assets/9fd99c0b-8184-41b4-b473-150846ed3da0" />
+- <img width="1878" height="842" alt="Screenshot 2026-06-15 190850" src="https://github.com/user-attachments/assets/80d44a48-d7c9-481f-bd18-d2d239d7a9ee" />
+- <img width="363" height="903" alt="Screenshot 2026-06-15 191112" src="https://github.com/user-attachments/assets/3da4eb37-db06-4200-8d22-d95ae40674ac" />
+
+- File created:
+- `README.md`
+- `docs/team-profile.md`
+- `docs/idea-log.md`
+- `docs/problem-notes.md`
+- `docs/weekly-logbook.md`
+
+## Lab 02: IT Opportunity Scanning
+
+### What We Completed
+
+1. Identified six potential IT venture opportunities based on real-world problems.
+2. Evaluated each idea using the NUF (New, Useful, Feasible) framework.
+3. Selected the most promising venture idea for further development.
+
+### Selected Opportunity
+
+**Smart Campus Event Hub**
+
+### Why We Selected It
+
+The Smart Campus Event Hub received the highest NUF score because:
+
+* New: Provides a centralized platform for all campus events and activities.
+* Useful: Helps students stay informed about events, workshops, club activities, and important announcements.
+* Feasible: Can be developed as a web application using existing technologies and a simple database system.
+* 
+### What We Rejected
+
+**Local Artisan Marketplace**
+
+This idea was rejected because it requires a larger customer base and more complex marketplace features. The team decided that the Smart Campus Event Hub is more suitable for the university environment and easier to prototype within the semester
+
+### What We Learned
+
+1. How to identify IT business opportunities from real-world problems.
+2. How to evaluate ideas using the NUF scoring framework.
+3. The importance of selecting a project that is useful, feasible, and aligned with user needs.
+
+### Evidence of Work
+
+* Opportunity scan file: https://github.com/sonamd6807456/ICT105-DRUK-MVP/blob/d13e1fe2eddfc2a4bea82d7459ccd567fcfecdd3/docs/opportunity-scan.md
+* NUF scoring file: https://github.com/sonamd6807456/ICT105-DRUK-MVP/blob/e179fbc9cdb905bc64695b67ec0b6e2f68645c54/data/opportunity-scoring.xlsx
+* Selected opportunity file:https://github.com/sonamd6807456/ICT105-DRUK-MVP/blob/aeb56a77da089adc70d20341fb6bc7636b1d8c95/docs/selected-opportunity.md
+* GitHub issue screenshot: <img width="1230" height="735" alt="Screenshot 2026-06-17 192208" src="https://github.com/user-attachments/assets/e62f5c8f-4bf2-499b-9836-65a9221c8488" />
+* Commit link: https://github.com/sonamd6807456/ICT105-DRUK-MVP/commits/main/
+
+### Plan for Lab 03
+
+The team will carry out customer discovery activities with university students, club representatives, and event organizers to better understand how campus events are currently promoted and managed.
+
+We will:
+
+* Design interview and survey questionnaires.
+* Select participants from different student groups and organizations.
+* Gather feedback on how students learn about events and activities.
+* Identify common issues related to event communication and participation.
+* Evaluate student interest in using a centralized event platform.
+
+The key question we want to answer is:
+
+Can a single digital platform improve students' awareness of campus events and make it easier for them to participate in university activities?
+
+## Lab 03: Customer Problem Discovery
+
+### What We Completed
+
+1. Identified target respondents, including first-year students, active campus participants, and exchange students. Developed customer discovery survey questions to understand how students currently discover campus events and documented the materials in `/docs/problem-notes.md`, `/docs/customer-questions.md`, and `/data/raw-responses.xlsx`.
+
+2. Created an assumption-evidence table to distinguish between team assumptions and user-reported experiences. The analysis was recorded in `/docs/assumption-evidence-table.md`.
+
+3. Summarized customer discovery findings, documented recurring challenges, updated project documentation, and revised the README and `/docs/weekly-logbook.md` based on the identified problem patterns.
+
+### What We Learned About the Problem
+
+1. Students frequently struggle to stay informed about campus events because announcements are distributed across multiple channels such as social media, messaging groups, student clubs, and posters.
+
+2. Many students discover events too late, resulting in missed registration deadlines, workshops, competitions, and other campus opportunities.
+
+3. Students need a more organized way to access event information, as relying on multiple communication channels increases the likelihood of missing important announcements.
+
+### What Evidence We Collected
+
+* Number of respondents/interviews: 20 students
+* Evidence file: `data/raw-responses.xlsx`
+* Key repeated pattern: Students reported that event information is scattered across different platforms and that important announcements are often missed.
+
+### What We Changed Based on Evidence
+
+Based on the feedback collected, we refined our solution focus toward providing a centralized event information platform rather than introducing complex features in the early stages.
+
+We also prioritized event reminders, centralized event listings, and improved event visibility because these issues appeared repeatedly in customer responses.
+
+### Problems or Difficulties
+
+1. Designing survey questions that explored students' actual experiences without suggesting or promoting a specific solution.
+
+2. Converting survey responses into clear evidence that could be used to validate assumptions and identify genuine customer problems.
+
+### Evidence of Work
+
+* GitHub repository link: https://github.com/sonamd6807456/ICT105-DRUK-MVP
+* Customer questions file: /docs/customer-question.md 
+* Raw responses file:/data/raw-responses.xlsx 
+* Assumption-evidence table: /docs/assumption-evidence-table.md 
+* Commit link: https://github.com/sonamd6807456/ICT105-DRUK-MVP/commits/main/
+
+### Plan for Lab 04
+
+1. Identify the primary customer segment most affected by event discovery challenges.
+2. Create a detailed user persona based on survey responses and customer insights.
+3. Develop user stories that describe how students will discover, track, and participate in campus events using the proposed platform.
+4. Prioritize customer needs and translate them into MVP requirements.
+5. Prepare initial wireframes for the Smart Campus Event Hub.
+
+# Lab 04 - User Persona, Requirements, and User Stories
+
+## Group Information
+- Course: ICT105 Fundamental Technology Entrepreneurship
+- Lab: Lab 04 - User Persona, Requirements, and User Stories
+- Group Name: DRUK
+- Repository Link: https://github.com/sonamd6807456/ICT105-DRUK-MVP
+- Date: 1st July 2026
+
+## 1. Work Completed Today
+| Member Name | Contribution | GitHub Evidence (Commit/Issue/PR Link) |
+|---|---|---|
+|Kinley Zam| Created the User Persona, wrote the User Stories, and designed the User Flow for the Smart Campus Event Hub. | User Persona: https://github.com/sonamd6807456/ICT105-DRUK-MVP/blob/4cedf17e7388002161120dfedc5cc5fa61350038/docs/user_persona.md  User Stories: https://github.com/sonamd6807456/ICT105-DRUK-MVP/blob/b95f0b423b9526337c6fd8035f63749b8258564f/docs/user-stories.md User Flow: https://drive.google.com/file/d/1PTpBsfG3VbVta6AEYR5yQX7Rub0RmxwI/view?usp=sharing |
+|Tenzin Dema| Prepared the System Requirements,  completed the Lab 04 Practice Workbook ( identified the functional and non-functional requirements), and Updated the README | System Requirement:https://github.com/sonamd6807456/ICT105-DRUK-MVP/blob/f6ab2f76ed367d67b13a317e9766ca727e741641/docs/system_requirement.md   Lab 04 Practice Workbook (Functional and non-functional requirements ): https://github.com/sonamd6807456/ICT105-DRUK-MVP/blob/241e183d0de9989ae6aaa8dbe611028b5043e388/data/raw-lab04-practice-workbook.xlsx. Updated README: https://github.com/sonamd6807456/ICT105-DRUK-MVP/blob/fcdcf991c083604f5f44096b602ab306714c9bee/README.md   |
+|Sonam Deki|Defined the target users for the Smart Campus Event Hub, created the MVP Feature List, prepared the Use Case, and updated the Weekly Logbook. | Defined the target users: https://github.com/sonamd6807456/ICT105-DRUK-MVP/blob/41b734a1796fbf87ec05484d8ef3bc23bf1c4b76/README.md  MVP Feature List: https://github.com/sonamd6807456/ICT105-DRUK-MVP/blob/5f46ff13975a8498ffa3f54a79d96f610719fcc5/docs/mvp-feature-list.md   Use case diagram: https://drive.google.com/file/d/1r_5z3H_7IjZVuvl0UQ3XWlY0UoghOiQg/view?usp=drive_link  Weekly Updated Logbook:https://github.com/sonamd6807456/ICT105-DRUK-MVP/blob/8b83eec4712530277a7751aba1ef096ac8e91902/docs/weekly-logbook.md|
+
+## 2. Main Decisions
+- Primary target user:University students
+- Main persona:Students who want to find and join campus events easily
+- Most important problem:Students miss campus events because information is shared across different platforms.
+  
+- Must-have requirements:
+* View upcoming events
+* Search events
+* Register for events
+* Receive event notifications
+  
+- Features included in MVP:
+* Homepage
+* Event listing
+* Event details
+* Event registration
+* Contact page
+  
+- Features postponed:
+* Event ratings
+* Chat feature
+* AI event recommendations
+  
+## 3. Requirement Changes / Clarifications
+The team decided to focus on essential event management features first. Advanced features such as event recommendations and chat will be considered in future versions.
+
+## 4. Problems Encountered
+- Technical problem: Selecting the most important features for the MVP.
+- Team coordination problem: Ensuring all team members followed the same document format and agreed on the final MVP features before updating the GitHub repository.
+- Evidence/requirement problem:Collecting enough user feedback to confirm the project requirements.
+
+## 5. Next Actions Before Lab 05
+| Task | Owner | Deadline | GitHub Issue |
+|---|---|---|---|
+|Finalize wireframes |Kinley Zam |Next Lab |#21 |
+|Design website UI |Sonam Deki |Next Lab | #22 |
+|Prepare HTML and CSS structure |Tenzin Dema |Next Lab | #23 |
+|Review project requirements |All Members |Next Lab |#24 |
+
+# Weekly Logbook - Lab 05
+
+## Lab 05 Focus
+Product Concept and UI/UX Wireframe
+
+## Group Name
+DRUK
+
+## Project Title
+Smart Campus Event Hub
+
+## Repository Link: 
+**Date:** July 8, 2026
+
+## What We Completed Today
+- [x] Reviewed Lab 04 requirements
+- [x] Defined the Smart Campus Event Hub product concept
+- [x] Mapped MVP features to functional requirements
+- [x] Created the required wireframe screens
+- [x] Designed the user flow diagram
+- [x] Built a clickable prototype draft and planned screen navigation
+- [x] Updated the GitHub repository with Lab 05 documents
+
+## Member Contributions
+
+| Member Name | Contribution | Evidence / Commit Link |
+|---|---|---|
+| Sonam Deki | Defined the product concept, updated the README.md, prepared the weekly logbook, created the user flow diagram, organized the project documentation, and updated the GitHub repository with the latest Lab 05 files.| GitHub Commit |
+| Tenzin Dema | Prepared the wireframe specification, completed the screen inventory checklist, created the Smart Campus Event Hub sample-record.csv file, and updated the customer questionnaire survey based on project requirements. | GitHub Commit |
+| Kinley Zam |Prepared the case study brief, completed the feature-to-requirement mapping, and reviewed the wireframes using a usability checklist to ensure consistency and user-friendliness and also contributed in user flow diagram | GitHub Commit |
+
+## Decisions Made
+
+| Decision | Reason | Related Requirement |
+|---|---|---|
+| Develop the system as a web-based platform. | Easy access for students using laptops and mobile browsers without installing an application. | FR-01 |
+| Keep the MVP focused on essential event management features. | To ensure the prototype can be completed within the semester. | FR-01 to FR-06 |
+| Include search and filtering in the MVP. | Helps students quickly find relevant campus events. | FR-03 |
+| Provide an organizer/admin interface for event management. | Allows organizers to create, edit, and manage campus events efficiently. | FR-02, FR-09, FR-10 |
+| Use a simple and responsive interface. | Improves usability for students accessing the platform on different devices. | NFR-01, NFR-02 |
+
+## 2. Main Lab 05 Decisions
+
+- Smart Campus Event Hub will continue as a centralized platform for first-year and international students to discover campus events.
+- The Lab 05 wireframes will serve as the visual foundation for the final prototype.
+- The required screens include Homepage, Event Submission Form, Event List, Event Details, Dashboard Summary, and Organizer/Admin View.
+- The MVP will focus on browsing events, searching and filtering events, viewing event details, event registration, organizer event management, and dashboard summaries.
+- Features such as AI-powered recommendations, real-time chat, mobile application deployment, and calendar synchronization remain outside the MVP scope for this semester.
+
+---
+
+## Files Added or Updated
+
+| File / Folder | Purpose |
+|-------------------------------|------------------------------------------------|
+| `docs/product-concept.md` | Defines target users, problem statement, proposed solution, value proposition, MVP scope, and out-of-scope features. |
+| `docs/feature-requirement-mapping.md` | Maps requirements to user stories, MVP features, wireframes, and prototype modules. |
+| `docs/wireframe-specification.md` | Describes the required wireframe screens and expected UI elements. |
+| `docs/wireframe-usability-checklist.md` | Evaluates usability, consistency, and requirement coverage. |
+| `diagrams/user-flow.mmd` | Mermaid source code for the user flow diagram. |
+| `diagrams/user-flow.png` | Exported image of the user flow diagram. |
+| `wireframes/` | Contains all required wireframe PNG files. |
+| `prototype/wireframe-html/` | Clickable HTML/CSS wireframe prototype. |
+| `README.md` | Updated with Lab 05 summary and documentation links. |
+
+---
+
+## Requirement Coverage
+
+- **FR-01** and **FR-02** are demonstrated through the Homepage and navigation flow.
+- **FR-03** is demonstrated through the Event Submission Form.
+- **FR-04** and **FR-05** are demonstrated through the Event Listing page.
+- **FR-06** is demonstrated through Event Registration.
+- **FR-07** and **FR-08** are demonstrated through Search & Filter and Event Details.
+- **FR-09** is demonstrated through the Organizer/Admin View.
+- **FR-10** is demonstrated through Event Status Management.
+- **NFR-01**, **NFR-02**, **NFR-03**, and **NFR-04** are supported through responsive design, usability, performance planning, and complete GitHub documentation.
+
+---
+
+## Problems Encountered
+
+- The team ensured that every wireframe directly supports the documented requirements and user stories instead of being only visually attractive.
+- Some features appeared across multiple screens, requiring feature-requirement mapping for better traceability.
+- The clickable prototype currently uses sample data because a backend database has not yet been implemented.
+
+---
+
+## Next Actions Before Lab 06
+
+| Task | Owner | Deadline | Notes |
+|------|-------|----------|------|
+| Improve the clickable HTML/CSS prototype with JavaScript interactions. | All Members | Before Lab 06 | Enhance search, filtering, and navigation. |
+| Review all documentation and ensure consistency across repository files. | All Members | Before Lab 06 | Verify README, weekly logbook, and supporting documents. |
+| Review wireframe usability and refine screen designs. | All Members | Before Lab 06 | Ensure all screens follow usability guidelines and project requirements. |
+| Create GitHub Issues and update repository progress. | All Members | Before Lab 06 | Maintain project continuity and teamwork evidence. |
+
+---
+
+# Weekly Logbook – Lab 06
+
+## Group Name
+
+DRUK
+
+## Project Title
+
+Smart Campus Event Hub
+
+## Date
+
+July 8, 2026
+
+---
+
+# Members Present
+
+# Members Present
+
+| Member Name | Contribution Today | GitHub Evidence / Commit / File Updated |
+|-------------|--------------------|-----------------------------------------|
+| **Sonam Deki** |Updated the README, Product concept, Weekly Logbook, MVP Feature List, Data Flow Diagram, System Architecture,  Use Case Diagram, user-flow diagram, created prototype css,updated idea-log.md and ensured the project documentation remained consistent and aligned with the project requirements |/README.md , /docs/product-concept.md ,/docs/weekly-logbook.md , /docs/mvp-feature-list.md, /data-flow.mmd, /system-architecture.mmd, use case diagram, /user-flow.drawio.png ,/prototype/css , /docs/idea-log.md, /docs/weekly-logbook.md |
+| **Kinley Zam** |Developed and refined the clickable HTML prototype, synchronized the documentation with the implemented prototype, reviewed the Business Model Canvas, completed the Feature-Value Mapping, update feature requirement mapping validated the wireframe against the project requirements,  updated the User Flow Diagram, update data structure,update case study-brief.mdand GitHub Issues.|/prototype, /user-flow.png, /case-study-brief.md, //data-structure.md, /feature-requirement-mapping.md, /feature-value-mapping.md, /wireframe-usability-checklist.md     |
+| **Tenzin Dema** |Prepared the Technical Architecture documentation, completed the Customer Segment Value section, revised the customer questionnaire survey, created prototype js, updated screen inventory checklist, revise wireframe specification for clarity and detail, update wireframe usability-checklist.md,and contributed to the Business Model Canvas.|/docs/technical-architecture.md,customer_segments_value.csv, /docs/customer-question.md, /prototype/Js, /docs/screen-inventory-checklist.md, /docs/wireframe-specification.md , /docs/wireframe-usability-checklist.md, /docs/wireframe-usability-checklist.md  |
+
+---
+
+# Decisions Made Today
+
+## 1. Business Model Decision
+
+The team confirmed that the Smart Campus Event Hub will remain a centralized platform that helps first-year and international students discover campus events, register for activities, and receive timely information. Advanced features such as AI recommendations, real-time chat, and mobile applications remain outside the MVP scope.
+
+## 2. Technical Architecture Decision
+
+The final prototype will be developed as a frontend web application using HTML, CSS, and JavaScript with sample JSON/localStorage data.
+
+## 3. Data Structure Decision
+
+The prototype data structure will include the following entities:
+
+- Student User
+- Organizer
+- Campus Event
+- Event Registration
+- Dashboard Summary
+
+These entities are sufficient to demonstrate the current MVP without requiring a production database.
+
+## 4. Diagram Decision
+
+The team finalized the User Flow Diagram, Data Flow Diagram, and System Architecture Diagram. Each prototype screen is directly connected to the documented system requirements, user stories, and MVP features.
+
+---
+
+# Problems or Risks Found
+
+- Several documentation files required synchronization after updating the latest prototype.
+- Maintaining consistency between requirements, user stories, feature mappings, and prototype screens required multiple reviews.
+- Since the prototype is frontend-only, all event records and dashboard data are currently simulated.
+- Time management was important because both documentation and prototype development needed to progress together.
+
+---
+
+# Next Actions Before Lab 07
+
+- Conduct final testing of all prototype navigation and page links.
+- Verify responsive layouts across different screen sizes.
+- Review and improve the visual consistency of all pages.
+- Capture final prototype screenshots for documentation.
+- Review the GitHub repository to ensure all files are complete and synchronized.
+- Resolve any remaining UI or documentation issues before final submission.
+
+---
+
+# Weekly Logbook - Lab 07
+
+## Group Name
+
+DRUK
+
+## Project Title
+
+Smart Campus Event Hub
+
+## Date
+
+July 15, 2026
+
+---
+
+## Members Present
+
+| Member Name | Contribution Today | GitHub Evidence / Commit / File Updated |
+|---|---|---|
+| Tenzin Dema | Prepared project documentation, defined critical assumptions, designed feedback collection materials, prepared experiment result templates, updated README documentation, created Smart Campus Event Hub case study brief, managed project issues, and updated technical architecture documentation. | `docs/critical-assumptions.md`, `docs/feedback-form.md`, `data/experiment-results-template.md`, `README.md`, `docs/case-study-brief.md`, `ISSUES.md`, `docs/technical-architecture.md` |
+| Sonam Deki | Designed the experiment flow diagram, prepared sample test users, created experiment user profiles, developed the MVP experiment plan, and supported success measurement planning. | `docs/experiment-flow-diagram.md`, `data/sample-test-user.md`, `data/sample-experiment-user.md`, `docs/mvp-experiment-plan.md`, `docs/success-metrics.md` |
+| Kinley Zam | Created the feedback form template, prepared the experiment script, updated and improved the Smart Campus Event Hub prototype, modified HTML, CSS, and JavaScript files, updated wireframes, and uploaded prototype screenshots for project documentation. | `data/feedback-form-template.csv`, `docs/experiment-script.md`, `prototype/index.html`, `prototype/style.css`, `prototype/script.js`, `docs/wireframe.md`, `screenshots/` |
+
+---
+
+# Decisions Made Today
+
+## 1. MVP Experiment Type
+
+The team selected a combination of **Simple Web Prototype**, **Clickable Prototype**, and **Form-Based Simulation** to evaluate the Smart Campus Event Hub.
+
+The prototype allows students to:
+
+- Browse upcoming campus events
+- Search and filter events by category
+- View event details
+- Register for events
+- Receive event information
+- Submit event feedback
+- Manage personal event participation
+
+The experiment focuses on testing whether students can easily discover and participate in campus activities.
+
+---
+
+## 2. Experiment Objective
+
+The objective of the MVP experiment is to determine whether students can successfully use the Smart Campus Event Hub to discover, register, and interact with campus events.
+
+The experiment aims to validate whether the system solves current campus event problems:
+
+- Students are unaware of available campus activities.
+- Event information is scattered across different platforms.
+- Students have difficulty finding events suitable for their interests.
+- Event organizers lack an effective way to reach students.
+
+---
+
+## 3. Critical Assumptions
+
+The team identified and prioritized the following assumptions:
+
+### User Problem Assumption
+
+Students need a centralized platform where they can easily discover campus events and activities.
+
+### Usability Assumption
+
+Students should be able to search, view, and register for events without additional assistance.
+
+### Value Proposition Assumption
+
+A Smart Campus Event Hub can increase student participation by providing organized and accessible event information.
+
+### Technical Feasibility Assumption
+
+The system can support event management, searching, registration, and notifications using available web technologies.
+
+---
+
+## 4. Success Metrics
+
+The team defined measurable success criteria:
+
+- Event discovery success rate
+- Search and filter completion rate
+- Event registration completion rate
+- Time required to complete tasks
+- User satisfaction score
+- User understanding of event information
+- Feature usefulness rating
+
+These measurements will determine whether the MVP meets student needs.
+
+---
+
+## 5. Experiment Preparation
+
+Five representative users were selected:
+
+- First-year Student
+- International Student
+- Senior Student
+- Student Club Organizer
+- Campus Staff Member
+
+The testing activities include:
+
+1. Find an upcoming campus event.
+2. Search for a specific event category.
+3. View event details.
+4. Register for an event.
+5. Provide feedback about the platform.
+
+The team prepared:
+
+- Usability testing script
+- User tasks
+- Feedback questionnaire
+- Observation checklist
+
+---
+
+# Problems or Risks Found
+
+- Event registration is currently simulated without a real database system.
+- Notification features require further development.
+- Event approval and management processes need additional implementation.
+- User preferences may differ depending on student interests.
+- More usability testing is needed before final development.
+
+---
+
+# Files Added or Updated
+
+| File | Purpose |
+|---|---|
+| `docs/mvp-experiment-plan.md` | Documents MVP experiment objectives, scope, and testing approach. |
+| `docs/critical-assumptions.md` | Defines project assumptions, risks, and validation methods. |
+| `docs/experiment-script.md` | Provides usability testing instructions and participant tasks. |
+| `docs/success-metrics.md` | Defines evaluation criteria and measurements. |
+| `docs/feedback-form.md` | Contains questions for collecting user opinions. |
+| `docs/weekly-logbook.md` | Updated weekly project progress. |
+| `README.md` | Updated project overview and latest experiment progress. |
+
+---
+
+# Next Actions Before Lab 08
+
+- Conduct usability testing with selected participants.
+- Collect feedback from students and organizers.
+- Analyze user behavior and task completion results.
+- Improve event browsing and registration features.
+- Update prototype based on testing results.
+- Finalize documentation for the next development phase.
+
+---
+
+# Lecturer / TA Notes
+
+*To be completed during the laboratory session after feedback from the lecturer or teaching assistant.*
+
+
+# Weekly Logbook - Lab 08
+
+## Group Information
+
+- **Group Name:** DRUK
+- **Project Title:** Smart Campus Event Hub
+- **Repository Link:** https://github.com/sonamd6807456/ICT105-DRUK-MVP
+- **Lab Date:** July 15, 2026
+
+---
+
+## Work Completed Today
+
+- [x] Reviewed Lab 07 MVP Experiment Plan.
+- [x] Prepared the MVP validation dataset structure.
+- [x] Created and updated the validation analytics sheet.
+- [x] Completed the Customer Validation Summary based on user feedback.
+- [x] Prepared the Analytics Insights document.
+- [x] Completed the MVP Decision document based on validation results.
+- [x] Updated the project README documentation.
+- [x] Created GitHub Issues for prototype improvements.
+
+---
+
+## Member Contributions
+
+| Member Name | Contribution | GitHub Evidence |
+|---|---|---|
+| **Sonam Deki** |Updated the README, prepared the Analytics Insights, created the validation-results-sample.csv validation-results.csv,Designed validation result flow.mmd and  and ensured the project documentation was updated for Lab 08 |"README.md; docs/analytics-insights.md; data/validation-results-sample.csv;diagrams/validation-result flow.mmd  |
+| **Kinley Zam** |Prepared the data-validation-results template, completed the Customer Validation Summary, documented the Test User Notes, created the Case Study Brief - Smart Campus Event Hub based on user validation results and revised prototype code.","data/data-validation-results-template.xlsx; |docs/customer-validation-summary.md; docs/test-user-notes.md; docs/case-study-brief.md, data/validation-results.csv|
+| **Tenzin Dema** |Prepared the MVP Decision document, updated the Weekly Logbook, completed the Validation Results Analytics, created the Feedback Form Template to support usability testing and evaluation and uploaded screenshot/lab-08-powerbi-dashboard.jpg ." |"docs/mvp-decision.md; docs/weekly-logbook.md; validation-results-analytics.xlsx; data/feedback-form-template.csv,screenshot/lab-08-powerbi-dashboard.jpg|
+
+---
+
+## Problems Found
+
+- Some users experienced difficulties with the **Search and Filter** feature because category labels and filtering options were not clear enough.
+- Users suggested adding more advanced filtering options, such as event category, organizer, and date, to improve event discovery.
+- Some participants recommended improving the **Event Registration Form** by using clearer field labels and instructions.
+- A few users suggested improving the organization and layout of the **Student Dashboard** to make important information easier to find.
+- Student club organizers and administrators suggested simplifying the **Event Management** process, especially event category selection and dashboard navigation.
+- Since the MVP is a front-end prototype, event data is currently simulated using sample data and browser LocalStorage instead of a live database.
+
+---
+
+## Next Actions
+
+- Improve the **Search and Filter** feature on the Events page.
+- Add clearer event category labels and additional filtering options.
+- Improve the Event Registration Form layout and instructions.
+- Enhance the **Student Dashboard** layout and information organization.
+- Simplify navigation and event category selection in the Admin/Event Management pages.
+- Improve consistency across all prototype pages.
+- Conduct another round of usability testing after implementing improvements.
+- Update the prototype, documentation, and GitHub repository based on validation feedback.
+
+-------
+
+#  Lab 09-Privacy, Ethics, Security, and Risk Management
+
+## Group Name
+
+**DRUK**
+
+---
+
+## Date
+
+**18 July 2026**
+
+---
+
+## Members Present
+
+- Sonam Deki
+- Kinley Zam
+- Tenzin Dema
+
+---
+
+## Work Completed Today
+
+- **Data Inventory:** Prepared the Data Inventory Template to identify the data collected by the Smart Campus Event Hub.
+- **Privacy Review:** Completed the Privacy and Data Protection document and created the Privacy & Security Review Flowchart.
+- **Ethical Review:** Completed the Legal and Ethical Checklist and User Consent Statement.
+- **Intellectual Property Review:** Prepared the IP and Third-Party Assets document and the Third-Party Assets Register Template.
+- **Security Review:** Completed the Security Risk Check and Practice Risk Register Sample.
+- **Risk Register:** Identified project risks and documented mitigation strategies.
+- **Requirements Update Note:** Reviewed validation evidence and documented required system requirement updates.
+- **Documentation:** Updated the README, Weekly Logbook, GitHub Issues, Case Study Brief, and collected project screenshots.
+
+---
+
+## Member Contributions
+
+| Member | Contribution | GitHub Evidence |
+|---|---|---|
+| **Sonam Deki** | Updated GitHub Issues, Weekly Logbook, Legal & Ethical Checklist, Updated Requirements Note, created the Privacy & Security Review Flowchart, and completed the Practice Risk Register Sample. |GitHub Issues #49–#54,docs/weekly-logbook.md,  docs/legal-ethical-checklist.md, docs/updated-requirements-note.md,  diagrams/privacy-security-review.mmd, data/practice_risk_register_sample.csv |
+| **Kinley Zam** | Completed the Third-Party Assets Register Template, Data Handling Policy, Privacy and Data Protection document, User Consent Statement, and collected project screenshots. | docs/third-party-assets-register.md,  docs/data-handling-policy.md, docs/privacy-data-protection.md, docs/user-consent-statement.md, screenshots/ |
+| **Tenzin Dema** | Updated the README, completed the IP and Third-Party Assets review, prepared the Data Inventory Template, reviewed Security Risks, and developed the Case Study Brief for the Smart Campus Event Hub. |  /README.md , docs/ip-third-party-assets.md , docs/data-inventory-template.md ,  docs/security-risk-check.md , docs/case-study-brief.md  |
+
+---
+
+## Decisions Made
+
+- The team completed all required Lab 09 privacy, security, legal, ethical, and intellectual property documentation.
+- The team agreed to continue with the current Smart Campus Event Hub MVP while implementing the usability improvements identified during customer validation.
+- All documentation was reviewed before being uploaded to the GitHub repository.
+
+---
+
+## Issues / Blockers
+
+- The prototype currently stores data using browser LocalStorage instead of a backend database.
+- Some advanced features, such as event reminders and enhanced search filters, are planned for future implementation.
+- Additional user testing will be conducted after the next prototype improvements.
+
+---
+
+## Next Action Before Lab 10
+
+- Implement the remaining usability improvements identified during validation.
+- Improve the Search and Filter feature and dashboard layout.
+- Finalize all project documentation and GitHub repository updates.
+- Conduct final MVP testing and prepare the project presentation for Lab 10.
+- Review all GitHub Issues and close completed tasks before submission.
+
+# Weekly Logbook – Lab 10
+
+## Lab Topic
+
+**MVP Implementation Sprint 1**
+
+## What We Built Today
+
+During Lab 10, our team implemented and updated the **Smart Campus Event Hub MVP Prototype** using **HTML, CSS, JavaScript, and browser localStorage**.
+
+The main prototype pages and features completed during the sprint include:
+
+- Homepage and shared navigation
+- Student signup and login pages
+- Campus events listing page
+- Event details page
+- Event registration system
+- Favorite events feature
+- Search and category filter
+- Student dashboard
+- User profile page
+- Event registration status display
+- Event management page (Admin)
+- Add new event form
+- Edit and delete event functionality
+- Dashboard statistics
+- Toast notification and action feedback
+- Responsive design for desktop, tablet, and mobile devices
+- Browser localStorage for simulated data persistence
+
+The project documentation was also updated to match Sprint 1, including the implementation plan, feature implementation status, weekly logbook, prototype folder, and README.
+
+---
+
+## Requirement IDs Addressed
+
+- **FR-01 to FR-03:** Homepage, shared navigation, signup, and login
+- **FR-04 to FR-06:** Browse events, search events, and filter by category
+- **FR-07 to FR-09:** Event details, event registration, and registration confirmation
+- **FR-10 to FR-12:** Favorites page, student dashboard, and profile page
+- **FR-13 to FR-16:** Admin dashboard, manage events, add events, and update events
+- **FR-17 to FR-18:** Dashboard statistics and action feedback notifications
+- **NFR-01 to NFR-04:** Responsive interface, usability, browser storage, and consistent UI design
+
+---
+
+## Team Contribution
+
+All team members collaborated using the same GitHub repository and completed their assigned tasks through GitHub Issues, commits, prototype development, documentation updates, and screenshot evidence.
+
+| Member | Contribution | Evidence |
+|--------|--------------|----------|
+| **Kinley Zam – Member 1** | Developed the Smart Campus Event Hub frontend pages using HTML, created and updated the homepage, events page, dashboard, profile page, and favorites page. Also updated the feature implementation status document, README, and organized project screenshots. | GitHub Issue #55, `prototype/*.html`, `docs/feature-implementation-status.md`, `README.md`, `screenshots/`, GitHub commits, and repository updates. |
+| **Sonam Deki – Member 2** | Prepared the Smart Campus Event Hub project documentation, implementation plan, case study, sample event records, and maintained the CSS styling for the prototype. Also organized project assets and repository documentation. | GitHub Issue #56, `docs/implementation-plan.md`, `docs/case-study.md`, `data/smart-campus-event-hub-sample-record.md`, `prototype/css/`, GitHub commits, and documentation updates. |
+| **Tenzin Dema – Member 3** | Developed the JavaScript functionality for the prototype, implemented localStorage features, event registration, favorites system, dashboard functionality,implementation flowchart and prepared project statistics, implementation flow diagram, weekly logbook, and prototype link documentation. | GitHub Issue #57, `prototype/js/`, `docs/weekly-logbook.md`, `prototype/prototype-link.md`, `data/smart-campus-event-hub-statistics-category.md`, `diagrams/implementation-flow/`, GitHub commits, and project updates. |
+
+---
+
+## Screenshots Added
+
+The following screenshots will be included as evidence of the implemented prototype:
+
+- `/screenshots/homepage.png`
+- `/screenshots/login-page.png`
+- `/screenshots/signup-page.png`
+- `/screenshots/events-page.png`
+- `/screenshots/event-details.png`
+- `/screenshots/event-registration.png`
+- `/screenshots/favorites-page.png`
+- `/screenshots/dashboard.png`
+- `/screenshots/profile-page.png`
+- `/screenshots/manage-events.png`
+- `/screenshots/add-event.png`
+- `/screenshots/dashboard-statistics.png`
+- `/screenshots/search-filter.png`
+- `/screenshots/responsive-mobile.png`
+
+---
+
+## Problems Faced
+
+- Linking pages together correctly within the prototype.
+- Synchronizing localStorage between Events, Favorites, Dashboard, and Registration pages.
+- Favorite events were initially not displaying because event IDs and favorite data were stored differently.
+- Registration status was not updating immediately after registration.
+- Some navigation links produced "File Not Found" errors due to incorrect file paths.
+- Responsive layouts required additional adjustments for smaller devices.
+- Managing shared JavaScript functions across multiple pages required careful testing.
+- localStorage only stores data in the current browser and device, limiting persistence.
+- Authentication and user roles were simulated using frontend JavaScript only.
+
+To address these issues, the team reviewed the JavaScript logic, standardized localStorage usage, corrected navigation links, tested the complete workflow across pages, and improved UI consistency.
+
+---
+
+## Plan for Next Lab
+
+In the next lab, the team plans to:
+
+- Conduct usability testing with target users.
+- Test complete registration and favorites workflows.
+- Verify dashboard statistics.
+- Test admin event management features.
+- Improve responsive layouts.
+- Fix any remaining JavaScript bugs.
+- Collect user feedback.
+- Update screenshots after improvements.
+- Update GitHub Issues with implementation evidence.
+- Complete Sprint 2 development and validation.
+------------
+
+## Lab 11 **MVP Implementation Sprint 2 and Startup Metrics**
+
+---
+
+## Group Case
+
+**Project Title:** Smart Campus Event Hub
+
+**Selected Case:**Development of a web-based Smart Campus Event Hub that centralizes campus event discovery, event registration, favorite events, student dashboards, organizer management, and administrator management using HTML, CSS, JavaScript, and browser LocalStorage.
+---
+
+## Work Completed Today
+
+- Reviewed the Smart Campus Event Hub prototype against the updated system requirements.
+- Improved the event management workflow and user interface.
+- Updated the startup metrics documentation.
+- Created the implementation metrics flow diagram.
+- Updated feature implementation status documentation.
+- Improved prototype styling and responsive design.
+- Improved prototype JavaScript functionality.
+- Prepared prototype testing notes.
+- Updated project README.
+- Created Smart Campus Event Hub sample records.
+- Updated project case study documentation.
+- Improved prototype HTML pages.
+- Updated the weekly logbook and supporting documentation.
+- Verified that documentation, prototype files, and repository structure were consistent with the latest MVP implementation.
+
+---
+
+## Member Contributions
+
+
+| Member Name | Contribution | File / Feature Updated | GitHub Evidence |
+|-------------|--------------|------------------------|-----------------|
+| **Sonam Deki** |Updated project styling, implementation metrics flow diagram, status-category reference, weekly documentation, contributed to the Power BI dashboard, updated project screenshots, and improved the Smart Campus Event Hub prototype.| prototype/css/status-category-reference.css, diagram/implementation-metrics-flow.mmd, docs/weekly-logbook.md, Power BI dashboard, screenshots/, prototype/ | GitHub Issue #58, commits, updated documentation, prototype CSS, implementation flow diagram, Power BI updates, screenshot updates, prototype improvements |
+| **Tenzin Dema** | Updated feature implementation status, prototype JavaScript functionality, prototype testing notes, project README, contributed to the Power BI dashboard, updated project screenshots, and improved the Smart Campus Event Hub prototype. | docs/feature-implementation-status.md, docs/prototype-testing-notes.md, README.md, prototype/js/, Power BI dashboard, screenshots/, prototype/ | GitHub Issue #59, commits, updated JavaScript files, README updates, Power BI updates, screenshot updates, prototype improvements |
+| **Kinley Zam** | Prepared Smart Campus Event Hub sample records, startup metrics documentation, case study, updated prototype HTML pages, contributed to the Power BI dashboard, updated project screenshots, and improved the Smart Campus Event Hub prototype. | data/smart-campus-event-hub-sample-record.md, docs/startup-metrics.md, docs/case-study.md, prototype/html/, Power BI dashboard, screenshots/, prototype/ | GitHub Issue #60, commits, documentation updates, prototype HTML pages, Power BI updates, screenshot updates, prototype improvements |
+---
+
+## Requirements Addressed
+
+- **FR-01** — Centralized Event Listing
+- **FR-03** — Search and Filter Events
+- **FR-04** — Event Details
+- **FR-05** — Event Registration
+- **FR-06** — Favorite Events
+- **FR-07** — Student Dashboard
+- **FR-08** — Organizer Dashboard
+- **FR-09** — Admin Dashboard
+- **FR-10** — Profile Management
+
+---
+## Startup Metrics
+- MVP Validation Metrics
+- Event Registration Success Rate
+- Favorite Event Usage
+- Dashboard Usage Metrics
+- User Journey Completion Rate
+- Feature Implementation Status
+- Prototype Testing Results
+- Implementation Metrics Flow
+---
+
+## Problems Found
+
+- Some dashboard components required additional layout adjustments for smaller screens.
+- Event search and filtering required further refinement for improved usability.
+- Browser LocalStorage required additional testing across different user workflows.
+- Documentation required updates to remain consistent with the latest prototype implementation.
+- Organizer and Administrator workflows required additional validation testing.
+- Responsive design required further optimization on mobile devices.
+
+---
+
+## Next Action Before Lab 12
+
+- Complete final usability testing of the Smart Campus Event Hub.
+- Verify all event registration workflows.
+- Test favorite event functionality.
+- Test Student, Organizer, and Administrator Dashboards.
+- Verify Browser LocalStorage data persistence.
+- Finalize startup metrics documentation.
+- Capture final prototype screenshots.
+- Review repository structure and documentation.
+- Update GitHub issues with implementation evidence.
+- Prepare the project for final MVP validation and presentation.
+
+  # Weekly Logbook - Lab 12
+
+## Group Name
+
+DRUK
+
+---
+
+## Project Title
+
+Smart Campus Event Hub
+
+---
+
+## Lab Date
+
+26 July 2026
+
+---
+
+## Work Completed Today
+
+| Member Name | Contribution | File/Commit Evidence |
+| --- | --- | --- |
+| **Tenzin Dema** | Prepared acquisition metrics documentation, landing page content, case study updates, and captured screenshot evidence. | `data/acquisition-metrics-template.csv`, `docs/acquisition-metrics.md`, `docs/landing-page-content.md`, `Case_Study_Brief_Smart_Campus_Event_Hub.md`, screenshots |
+| **Sonam Deki** | Developed the Digital Go-to-Market Plan, landing page prototype, README updates, landing page link, and landing page metrics dataset. | `docs/Digital Go-to-Market Plan.md`, `data/sample_smart-campus-event-hub_landing_metrics.csv`, `README.md`, `landing-page/index.html`, `landing-page/style.css`, `landing-page/script.js`, `landing-page-link.md` |
+| **Kinley Zam** | Prepared the marketing plan, channel strategy, landing page flow diagram, and updated the weekly logbook. | `data/channel-plan-template.csv`, `docs/marketing-message.md`, `diagrams/landing-page-to-prototype-flow.mmd`, `docs/weekly-logbook.md` |
+
+---
+
+## Landing Page Progress
+
+The team designed and implemented the Smart Campus Event Hub landing page. The landing page introduces the platform, explains its purpose, highlights key features, presents clear call-to-action buttons, and guides users from the landing page to the prototype. The landing page content, layout, and navigation were improved to provide a simple and engaging user experience.
+
+---
+
+## Go-to-Market Progress
+
+The team identified the primary target users as first-year students, exchange students, student club organizers, administrators, and campus staff. Marketing channels include class chat, campus QR posters, email, student club social media, and the university website. Marketing messages emphasize discovering campus events, registering for activities, and improving student participation through a centralized platform.
+
+---
+
+## Metrics Plan
+
+The team plans to measure:
+
+- Landing page visits
+- Call-to-action (CTA) button clicks
+- QR code scans
+- Prototype visits
+- Event registration attempts
+- Feedback form submissions
+
+These metrics will help evaluate user engagement and identify opportunities for improving the landing page and prototype.
+
+---
+
+## Problems Encountered
+
+- Maintaining consistency across project documentation after updating the prototype.
+- Aligning requirement IDs, user stories, screenshots, and implementation evidence.
+- Ensuring all project documents matched the latest Smart Campus Event Hub prototype.
+- Limited to browser localStorage instead of a production database.
+
+---
+## Requirement Change Record
+
+### Requirement Changed
+The Smart Campus Event Hub system requirements were reviewed and updated to accurately reflect the latest prototype implementation and ensure consistency across all project documentation.
+
+### Reason
+During MVP implementation and Landing Page development (Lab 12), several project documents required synchronization with the current prototype. The previous requirements no longer fully reflected the implemented features, user flow, and MVP scope. Updating the system requirements ensured accurate traceability between the requirements, user stories, MVP features, implementation, prototype, and validation results.
+
+### Evidence
+The following project files were reviewed and updated to maintain alignment:
+
+- `docs/system-requirements.md`
+- `docs/user-stories.md`
+- `docs/mvp-feature-list.md`
+- `docs/implementation-plan.md`
+- `docs/feature-implementation-status.md`
+- `docs/landing-page-content.md`
+- `docs/go-to-market-plan.md`
+- `docs/marketing-message.md`
+- `docs/acquisition-metrics.md`
+
+The updates are documented through GitHub Issues (#69) and the corresponding GitHub commits.
+
+### Approval
+The requirement updates were reviewed and approved by Team DRUK after comparing the documentation with the latest Smart Campus Event Hub prototype. The team confirmed that the updated requirements, documentation, data files, and prototype are consistent and accurately represent the current MVP before the final submission.
+
+## Next Action Before Lab 13
+
+- Complete final testing of the landing page and prototype.
+- Verify that all screenshots and documentation are correctly aligned.
+- Review README and repository organization.
+- Perform final usability testing and fix any remaining UI issues.
+- Prepare the project for the final Lab 13 presentation and submission.
+
+------
+
+- Lab 13
+
+## Group Name
+
+**DRUK**
+
+---
+
+## Project Title
+
+**Smart Campus Event Hub**
+
+---
+
+## Date
+
+**28 July 2026**
+
+---
+
+## Members and Contributions
+
+| Member | Contribution This Lab | GitHub Evidence |
+| --- | --- | --- |
+| **Sonam Deki** | Prepared the final improvement list, demo script template, user testing plan template, user testing flow diagram, and updated the weekly logbook,  | GitHub Issue #70, `docs/final-improvement-list.md`, `docs/demo-script.md`, `docs/user-testing-plan.md`, `diagrams/user-testing-flow.mmd`, `docs/weekly-logbook.md`,  GitHub commits |
+| **Tenzin Dema** | Prepared the user testing results sample, final improvement list template, user testing results template, case study brief, and demo outline template. | GitHub Issue #71, `docs/user-testing-results.md`, `docs/final-improvement-template.md`, `docs/user-testing-results-template.md`, `docs/case-study-brief.md`, `docs/demo-outline.md`, GitHub commits |
+| **Kinley Zam** | Prepared the user testing results template, sales scenario template, demo flow diagram, final demo link template, captured project screenshots for the final demonstration, and updated the project README documentation. | GitHub Issue #72, `docs/user-testing-results-template.md`, `docs/sales-scenario.md`, `diagrams/demo-flow.mmd`, `docs/final-demo-link.md`, `screenshots/`, `README.md`, GitHub commits |
+
+---
+
+## Work Completed
+
+- Prepared the sales scenario for the Smart Campus Event Hub.
+- Developed the demo script for the final product presentation.
+- Created the user testing plan and supporting testing materials.
+- Prepared the user testing results template and sample results.
+- Documented the final improvement list based on usability feedback.
+- Created the user testing flow and demo flow diagrams.
+- Updated the README and supporting project documentation.
+- Captured and organized screenshots for the final demonstration.
+
+---
+
+## Key Decisions
+
+- Finalized the Smart Campus Event Hub demonstration workflow.
+- Confirmed that all prototype features are aligned with the functional requirements.
+- Prioritized usability improvements identified during prototype testing.
+- Prepared all documentation required for the final demonstration in Lab 14.
+
+---
+
+## Problems Encountered
+
+- Minor inconsistencies were identified between documentation and the prototype.
+- Some prototype pages required layout improvements for better usability on smaller screens.
+- Several documentation files required updates to ensure requirement traceability and consistency.
+
+---
+
+## Next Actions Before Lab 14
+
+- Conduct one final usability test using the completed testing plan.
+- Apply the remaining prototype improvements.
+- Capture the final screenshot set.
+- Verify requirement traceability across all documentation.
+- Update the GitHub repository with the final prototype and documentation.
+- Prepare and rehearse the final project demonstration.
+
+---
+
+## Requirement Traceability Notes
+
+Before Lab 14, verify that the following requirements are fully demonstrated and supported by the prototype and documentation:
+
+- **FR-01:** Display a centralized list of upcoming campus events.
+- **FR-02:** Allow organizers to publish new campus events.
+- **FR-03:** Provide search and filtering by category, date, organizer, and keywords.
+- **FR-04:** Display detailed event information.
+- **FR-05:** Allow students to register for campus events.
+- **FR-06:** Display registered events in the Student Dashboard.
+- **FR-07:** Allow organizers to manage participant registrations.
+- **FR-08:** Display event status.
+- **FR-09:** Validate event registration and event submission forms.
+- **FR-10:** Provide role-based access for students and administrators.
+
+The team reviewed the Smart Campus Event Hub prototype and documentation to ensure that all functional requirements (FR-01 to FR-10) remain consistent.
+
+-----
+
+#  Lab 14
+
+## Group Name
+
+**DRUK**
+
+---
+
+## Date
+
+**30 July 2026**
+
+---
+
+## Members Present
+
+- Sonam Deki
+- Tenzin Dema
+- Kinley Zam
+
+---
+
+## What We Completed Today
+
+- Completed the final Smart Campus Event Hub prototype review.
+- Verified that all implemented features matched the system requirements.
+- Updated the README documentation.
+- Finalized the project documentation and submission files.
+- Reviewed screenshots, diagrams, and supporting evidence.
+- Performed final testing and prepared the prototype for presentation.
+
+---
+
+## Final Prototype Updates
+
+- Verified Homepage, Event Listing, Search & Filter, Event Details, Event Registration, Student Dashboard, and Organizer/Admin Dashboard.
+- Improved form validation and navigation consistency.
+- Confirmed responsive layout across desktop and mobile devices.
+- Verified LocalStorage functionality for simulated event data.
+- Completed final prototype walkthrough and testing.
+
+---
+
+## Final Documentation Updates
+
+- Updated README.md.
+- Finalized Requirement Traceability.
+- Completed Final Reflection.
+- Completed Final Demo Script.
+- Updated Feature Implementation Status.
+- Finalized Prototype Report.
+- Completed Final Testing Results.
+- Updated Member Contribution records.
+- Verified screenshots, diagrams, and GitHub documentation.
+
+---
+
+## GitHub Contributions Today
+
+| Member | File/Issue/Commit Updated | Evidence Link |
+|---|---|---|
+| **Sonam Deki** | Final Requirement Traceability, Member Contribution Template, Final Demo Script, Final Reflection, Weekly Logbook, Prototype Improvements | GitHub Issue #78, GitHub commits |
+| **Tenzin Dema** | Final Sample Data, Final Demo Flow (.mmd), Feature Implementation Status, Final Submission Checklist, README.md, JavaScript Updates, Prototype Testing Documentation | GitHub Issue #80, GitHub commits |
+| **Kinley Zam** | Final Testing Results, Final Prototype Report, Requirement Traceability Matrix, Final Prototype Link, Final Project Screenshots, Final pitch outline | GitHub Issue #79, GitHub commits |
+
+---
+
+## Problems Found Before Submission
+
+- Minor formatting inconsistencies in several documentation files were corrected.
+- Final screenshots were updated to match the latest prototype.
+- Requirement traceability was verified to ensure all implemented features aligned with the final prototype.
+- README links and documentation references were reviewed and updated.
+
+---
+
+## Action Before Final Presentation
+
+- Perform one final walkthrough of the Smart Campus Event Hub prototype.
+- Verify that all GitHub Pages links are working correctly.
+- Ensure all documentation, screenshots, and diagrams are included in the repository.
+- Prepare the team presentation and assign speaking roles.
+- Submit the final GitHub repository and supporting files before the deadline.
