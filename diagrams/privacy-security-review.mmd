@@ -1,0 +1,35 @@
+flowchart TD
+
+    A([Start Security Review])
+
+    A --> B[Review Data Collection]
+
+    B --> C1[Student Name]
+    B --> C2[Student Email]
+    B --> C3[Student ID]
+    B --> C4[User Role]
+    B --> C5[Event Registration]
+    B --> C6[Reviews]
+    B --> C7[Event Information]
+
+    C1 --> D[Privacy Review]
+    C2 --> D
+    C3 --> D
+    C4 --> D
+    C5 --> D
+    C6 --> D
+    C7 --> D
+
+    D --> E[Verify User Consent]
+
+    E --> F[Legal & Ethical Review]
+
+    F --> G[Role-Based Access]
+
+    G --> H[Admin Only Event Management]
+
+    H --> I[Secure LocalStorage Data]
+
+    I --> J[Document Privacy Policies]
+
+    J --> K([Ready for Submission])

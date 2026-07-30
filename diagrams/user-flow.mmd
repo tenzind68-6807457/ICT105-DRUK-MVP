@@ -1,0 +1,42 @@
+flowchart TD
+
+    A[Homepage / Landing Page]
+
+    A --> B{Choose Action}
+
+    %% Student
+    B --> C[Browse Events]
+    B --> D[Login / Sign Up]
+    B --> E[Dashboard]
+
+    C --> F[Events List]
+    F --> G[Search / Filter Events]
+    G --> H[Event Details]
+
+    H --> I[Register for Event]
+    I --> J[Registration Confirmation]
+
+    %% Dashboard
+    E --> K[My Registered Events]
+
+    %% Admin
+    D --> L{User Role}
+
+    L -->|Student| K
+    L -->|Administrator| M[Admin Dashboard]
+
+    M --> N[Event Management]
+    M --> O[Registration Management]
+    M --> P[Review Management]
+    M --> Q[User Management]
+
+    N --> R[Create / Update Event]
+    R --> F
+
+    O --> K
+
+    P --> S[Review Event Feedback]
+
+    Q --> T[Manage Users]
+
+    H --> U[Event Status & Notifications]

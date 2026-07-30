@@ -1,0 +1,44 @@
+flowchart LR
+
+    Student[Student]
+    Admin[Administrator]
+
+    Auth((Login / Authentication))
+    Browse((Browse Events))
+    Register((Register Event))
+    ManageEvents((Manage Events))
+    ManageRegistrations((Manage Registrations))
+    ManageReviews((Manage Reviews))
+
+    Users[(User Database)]
+    Events[(Event Database)]
+    Registrations[(Registration Database)]
+    Reviews[(Review Database)]
+
+    Student -->|Login| Auth
+    Auth --> Users
+    Users --> Auth
+    Auth --> Student
+
+    Student -->|Browse Events| Browse
+    Browse --> Events
+    Events --> Browse
+    Browse --> Student
+
+    Student -->|Register Event| Register
+    Register --> Events
+    Register --> Registrations
+    Registrations --> Register
+    Register --> Student
+
+    Admin -->|Manage Events| ManageEvents
+    ManageEvents --> Events
+    Events --> ManageEvents
+
+    Admin -->|Manage Registrations| ManageRegistrations
+    ManageRegistrations --> Registrations
+    Registrations --> ManageRegistrations
+
+    Admin -->|Manage Reviews| ManageReviews
+    ManageReviews --> Reviews
+    Reviews --> ManageReviews

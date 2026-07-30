@@ -1,0 +1,33 @@
+flowchart LR
+
+    Student[Student]
+    Admin[Administrator]
+
+    Student --> UI[Smart Campus Event Hub]
+
+    UI --> Home[Home Page]
+    UI --> Events[Events Page]
+    UI --> Details[Event Details]
+    UI --> Login[Login]
+    UI --> MyEvents[My Events]
+
+    Admin --> Dashboard[Admin Dashboard]
+
+    Dashboard --> EventManagement[Event Management]
+    Dashboard --> RegistrationManagement[Registration Management]
+    Dashboard --> ReviewManagement[Review Management]
+    Dashboard --> UserManagement[User Management]
+
+    EventManagement --> EventDB[(Event Database)]
+
+    RegistrationManagement --> RegistrationDB[(Registration Database)]
+
+    ReviewManagement --> ReviewDB[(Review Database)]
+
+    UserManagement --> UserDB[(User Database)]
+
+    Home --> EventDB
+    Events --> EventDB
+    Details --> EventDB
+    MyEvents --> RegistrationDB
+    Login --> UserDB

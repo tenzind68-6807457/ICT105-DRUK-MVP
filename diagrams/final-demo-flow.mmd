@@ -1,0 +1,52 @@
+flowchart TD
+    A["Start Final Smart Campus Event Hub Demo"] --> B["Introduce the problem<br/>Students often miss campus events because information is scattered across multiple platforms"]
+
+    B --> C["Open Smart Campus Event Hub Landing Page<br/>Target users + Value Proposition + Explore Events<br/>FR-01, FR-02"]
+
+    C --> D["Open Homepage<br/>Featured Events + Upcoming Events + Navigation<br/>FR-01, FR-05"]
+
+    D --> E["Browse Event Listings<br/>Search + Filter by Category<br/>FR-05, FR-06"]
+
+    E --> F["Open Event Details<br/>View description, venue, organizer, schedule and available seats<br/>FR-07"]
+
+    F --> G{"Register for Event?"}
+
+    G -- "No" --> H["Continue Browsing Events"]
+
+    G -- "Yes" --> I{"Student Signed In?"}
+
+    I -- "No" --> J["Sign In using Student Demo Account"]
+
+    I -- "Yes" --> K["Complete Event Registration Form"]
+
+    J --> K
+
+    K --> L["Validate Required Fields<br/>Show Confirmation Message<br/>FR-03, FR-10"]
+
+    L --> M["Save Registration in browser localStorage<br/>Update Registration Status<br/>FR-04, FR-08"]
+
+    M --> N["Open Student Dashboard (My Events)<br/>View Registered Events, Participation History and Status<br/>FR-08, FR-11, FR-15"]
+
+    N --> O["Sign In using Administrator Demo Account"]
+
+    O --> P["Open Admin Dashboard<br/>Manage Events, Registrations and Analytics<br/>FR-09, FR-11"]
+
+    P --> Q["Create / Edit / Delete Events<br/>Approve Registrations<br/>Update Event Status<br/>FR-09"]
+
+    Q --> R["Dashboard Metrics Update<br/>Event Statistics + Registration Summary<br/>FR-11, FR-12"]
+
+    R --> S["Connect Screens to Requirements,<br/>User Stories, Validation Evidence and MVP Features<br/>FR-17"]
+
+    S --> T["Explain Business Value,<br/>Future Improvements and Close Venture Pitch"]
+
+    classDef problem fill:#fff4e5,stroke:#d97706,color:#7c2d12,stroke-width:2px;
+    classDef student fill:#eaf2ff,stroke:#2563eb,color:#163b73,stroke-width:2px;
+    classDef action fill:#ecfdf3,stroke:#16a34a,color:#14532d,stroke-width:2px;
+    classDef admin fill:#f3e8ff,stroke:#7e22ce,color:#581c87,stroke-width:2px;
+    classDef outcome fill:#0b3d91,stroke:#082f72,color:#ffffff,stroke-width:2px;
+
+    class A,B problem;
+    class C,D,E,F,G,H,I,J,K,L,M,N student;
+    class O,P,Q admin;
+    class R action;
+    class S,T outcome;
